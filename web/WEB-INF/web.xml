@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserListServlet_teach</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.teach.UserListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserListServlet_teach</servlet-name>
+        <url-pattern>/UserListServlet_teach</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuerySalaryServlet_teach</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.teach.QuerySalary</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuerySalaryServlet_teach</servlet-name>
+        <url-pattern>/QuerySalaryServlet_teach</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuerySalaryServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.QuerySalary</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuerySalaryServlet_staff</servlet-name>
+        <url-pattern>/QuerySalaryServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MemManServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.MemManServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MemManServlet_staff</servlet-name>
+        <url-pattern>/MemManServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WardrobeManageServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.WardrobeManageServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WardrobeManageServlet_staff</servlet-name>
+        <url-pattern>/WardrobeManageServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApparatusManageServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.ApparatusManageServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApparatusManageServlet_staff</servlet-name>
+        <url-pattern>/ApparatusManageServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CardManageServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.CardManageServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CardManageServlet_staff</servlet-name>
+        <url-pattern>/CardManageServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InfoServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.InfoServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InfoServlet_admin</servlet-name>
+        <url-pattern>/InfoServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserListServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.UserListServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserListServlet_admin</servlet-name>
+        <url-pattern>/UserListServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeachListServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.TeachListServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeachListServlet_admin</servlet-name>
+        <url-pattern>/TeachListServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApparatusListServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.ApparatusListServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApparatusListServlet_admin</servlet-name>
+        <url-pattern>/ApparatusListServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InfoServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.InfoServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InfoServlet_user</servlet-name>
+        <url-pattern>/InfoServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CourseList_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.CourseList_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CourseList_user</servlet-name>
+        <url-pattern>/CourseList_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeachListServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.TeachListServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeachListServlet_user</servlet-name>
+        <url-pattern>/TeachListServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WardrobeBorrowServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.WardrobeBorrowServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WardrobeBorrowServlet_user</servlet-name>
+        <url-pattern>/WardrobeBorrowServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CardInfoServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.CardInfoServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CardInfoServlet_user</servlet-name>
+        <url-pattern>/CardInfoServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddUserServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.AddUserServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet_admin</servlet-name>
+        <url-pattern>/AddUserServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResetUserPwdServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.ResetUserPwdServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResetUserPwdServlet_admin</servlet-name>
+        <url-pattern>/ResetUserPwdServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelUserServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.DelUserServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelUserServlet_admin</servlet-name>
+        <url-pattern>/DelUserServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddTeachServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.AddTeachServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTeachServlet_admin</servlet-name>
+        <url-pattern>/AddTeachServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResetTeachPwdServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.ResetTeachPwdServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResetTeachPwdServlet_admin</servlet-name>
+        <url-pattern>/ResetTeachPwdServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelTeachServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.DelTeachServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelTeachServlet_admin</servlet-name>
+        <url-pattern>/DelTeachServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddApparatusServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.AddApparatusServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddApparatusServlet_admin</servlet-name>
+        <url-pattern>/AddApparatusServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelApparatusServlet_admin</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.admin.DelApparatusServlet_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelApparatusServlet_admin</servlet-name>
+        <url-pattern>/DelApparatusServlet_admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddUserServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.AddUserServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet_staff</servlet-name>
+        <url-pattern>/AddUserServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResetUserPwdServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.ResetUserPwdServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResetUserPwdServlet_staff</servlet-name>
+        <url-pattern>/ResetUserPwdServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelUserServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.DelUserServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelUserServlet_staff</servlet-name>
+        <url-pattern>/DelUserServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddWardrobeServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.AddWardrobeServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddWardrobeServlet_staff</servlet-name>
+        <url-pattern>/AddWardrobeServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BorrowWardrobeServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.BorrowWardrobeServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowWardrobeServlet_staff</servlet-name>
+        <url-pattern>/BorrowWardrobeServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReturnWardrobeServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.ReturnWardrobeServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnWardrobeServlet_staff</servlet-name>
+        <url-pattern>/ReturnWardrobeServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BorrowApparatusServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.BorrowApparatusServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowApparatusServlet_staff</servlet-name>
+        <url-pattern>/BorrowApparatusServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReturnApparatusServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.ReturnApparatusServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnApparatusServlet_staff</servlet-name>
+        <url-pattern>/ReturnApparatusServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CardCancelServlet_staff</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.staff.CardCancelServlet_staff</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CardCancelServlet_staff</servlet-name>
+        <url-pattern>/CardCancelServlet_staff</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BorrowWardrobeServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.BorrowWardrobeServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowWardrobeServlet_user</servlet-name>
+        <url-pattern>/BorrowWardrobeServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CancelCardServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.CancelCardServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CancelCardServlet_user</servlet-name>
+        <url-pattern>/CancelCardServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SelectCourseServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.SelectCourseServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SelectCourseServlet_user</servlet-name>
+        <url-pattern>/SelectCourseServlet_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateInfoServlet_user</servlet-name>
+        <servlet-class>com.group.bodyBuilding.servlet.user.UpdateInfoServlet_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateInfoServlet_user</servlet-name>
+        <url-pattern>/UpdateInfoServlet_user</url-pattern>
+    </servlet-mapping>
+
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/errorpage/404.jsp</location>
+    </error-page>
+
+    <error-page>
+        <error-code>500</error-code>
+        <location>/errorpage/500.jsp</location>
+    </error-page>
+
+</web-app>
