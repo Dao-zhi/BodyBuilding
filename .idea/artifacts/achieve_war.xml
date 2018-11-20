@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="achieve:war">
+    <output-path>C:/Program Files/Apache Software Foundation/Tomcat 8.0/webapps</output-path>
+    <root id="archive" name="achieve_war.war">
+      <element id="artifact" artifact-name="welcome:war exploded" />
+    </root>
+  </artifact>
+</component>
